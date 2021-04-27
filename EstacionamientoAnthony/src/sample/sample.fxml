@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="planoEstacionamiento" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1530.0" style="-fx-background-color: BLACK;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#59dd71" height="38.0" layoutX="1044.0" layoutY="706.0" stroke="BLACK" strokeType="INSIDE" width="42.0" />
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00e2ff" height="214.0" layoutX="1209.0" layoutY="365.0" stroke="#ffffff00" strokeType="INSIDE" width="7.0" />
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00e2ff" height="912.0" layoutX="753.0" layoutY="12.0" rotate="90.0" stroke="#ffffff00" strokeType="INSIDE" width="7.0" />
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00e2ff" height="214.0" layoutX="300.0" layoutY="361.0" stroke="#ffffff00" strokeType="INSIDE" width="7.0" />
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00e2ff" height="67.0" layoutX="-2.0" stroke="BLACK" strokeType="INSIDE" width="80.0" />
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00e2ff" height="67.0" layoutX="1450.0" stroke="BLACK" strokeType="INSIDE" width="80.0" />
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00e2ff" height="67.0" layoutX="-2.0" layoutY="833.0" stroke="BLACK" strokeType="INSIDE" width="80.0" />
+        <Line endX="900.0" layoutX="534.0" layoutY="128.0" startX="-420.0" stroke="WHITE" />
+        <Line endX="509.0" layoutX="534.0" layoutY="707.0" startX="-421.0" startY="0.5" stroke="WHITE" />
+        <Line endX="-122.5" endY="432.0" layoutX="236.0" layoutY="275.0" startX="-122.5" startY="-148.0" stroke="WHITE" />
+        <Line endX="-122.5" endY="573.0" layoutX="1559.0" layoutY="278.0" startX="-122.5" startY="-150.0" stroke="WHITE" />
+        <Line endX="-225.5" endY="563.0" layoutX="1269.0" layoutY="288.0" startX="-225.5" startY="419.5" stroke="WHITE" />
+        <Button layoutX="14.0" layoutY="21.0" mnemonicParsing="false" onAction="#iniciarEstacionamiento" style="-fx-background-color: BLACK;" text="Iniciar" textFill="WHITE" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="109.0" layoutX="300.0" layoutY="361.0" stroke="#00e8ff" strokeType="INSIDE" strokeWidth="5.0" width="96.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="109.0" layoutX="390.0" layoutY="361.0" stroke="#00e8ff" strokeType="INSIDE" strokeWidth="5.0" width="96.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="109.0" layoutX="482.0" layoutY="361.0" stroke="#00e8ff" strokeType="INSIDE" strokeWidth="5.0" width="96.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="109.0" layoutX="571.0" layoutY="361.0" stroke="#00e8ff" strokeType="INSIDE" strokeWidth="5.0" width="96.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="109.0" layoutX="661.0" layoutY="361.0" stroke="#00e8ff" strokeType="INSIDE" strokeWidth="5.0" width="96.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="109.0" layoutX="753.0" layoutY="361.0" stroke="#00e8ff" strokeType="INSIDE" strokeWidth="5.0" width="96.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="109.0" layoutX="843.0" layoutY="361.0" stroke="#00e8ff" strokeType="INSIDE" strokeWidth="5.0" width="96.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="109.0" layoutX="933.0" layoutY="361.0" stroke="#00e8ff" strokeType="INSIDE" strokeWidth="5.0" width="96.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="109.0" layoutX="1025.0" layoutY="361.0" stroke="#00e8ff" strokeType="INSIDE" strokeWidth="5.0" width="96.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="109.0" layoutX="299.0" layoutY="468.0" stroke="#00e8ff" strokeType="INSIDE" strokeWidth="5.0" width="96.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="109.0" layoutX="389.0" layoutY="468.0" stroke="#00e8ff" strokeType="INSIDE" strokeWidth="5.0" width="96.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffcc00" height="109.0" layoutX="481.0" layoutY="468.0" stroke="#00e8ff" strokeType="INSIDE" strokeWidth="5.0" width="96.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="109.0" layoutX="570.0" layoutY="468.0" stroke="#00e8ff" strokeType="INSIDE" strokeWidth="5.0" width="96.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="109.0" layoutX="660.0" layoutY="468.0" stroke="#00e8ff" strokeType="INSIDE" strokeWidth="5.0" width="96.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffcc03" height="109.0" layoutX="752.0" layoutY="468.0" stroke="#00e8ff" strokeType="INSIDE" strokeWidth="5.0" width="96.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="109.0" layoutX="842.0" layoutY="468.0" stroke="#00e8ff" strokeType="INSIDE" strokeWidth="5.0" width="96.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="109.0" layoutX="932.0" layoutY="468.0" stroke="#00e8ff" strokeType="INSIDE" strokeWidth="5.0" width="96.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffc126" height="109.0" layoutX="1024.0" layoutY="468.0" stroke="#00e8ff" strokeType="INSIDE" strokeWidth="5.0" width="96.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="32.0" layoutX="296.0" layoutY="340.0" stroke="#00eaff00" strokeType="INSIDE" width="931.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="32.0" layoutX="296.0" layoutY="563.0" stroke="#00eaff00" strokeType="INSIDE" width="931.0" />
+      <Line endX="-34.0" endY="253.0" layoutX="1359.0" layoutY="544.0" startX="-34.0" startY="186.0" stroke="WHITE" strokeWidth="5.0" />
+      <Line endX="119.0" endY="-35.0" layoutX="1205.0" layoutY="764.0" startX="106.0" startY="-21.0" stroke="WHITE" strokeWidth="5.0" />
+      <Line endX="110.0" endY="-45.0" layoutX="1215.0" layoutY="774.0" startX="123.0" startY="-32.0" stroke="WHITE" strokeWidth="5.0" />
+      <Line endX="-34.0" endY="253.0" layoutX="245.0" layoutY="245.0" startX="-34.0" startY="186.0" stroke="WHITE" strokeWidth="5.0" />
+      <Line endX="119.0" endY="-35.0" layoutX="107.0" layoutY="517.0" startX="106.0" startY="-21.0" stroke="WHITE" strokeWidth="5.0" />
+      <Line endX="110.0" endY="-45.0" layoutX="86.0" layoutY="528.0" startX="123.0" startY="-32.0" stroke="WHITE" strokeWidth="5.0" />
+      <Line endX="100.0" layoutX="743.0" layoutY="257.0" startX="35.0" stroke="WHITE" strokeWidth="5.0" />
+      <Line endX="-84.0" endY="11.0" layoutX="878.0" layoutY="258.0" startX="-100.0" stroke="WHITE" strokeWidth="5.0" />
+      <Line endX="-87.0" endY="-11.0" layoutX="879.0" layoutY="255.0" startX="-100.0" stroke="WHITE" strokeWidth="5.0" />
+      <Line endX="-34.0" endY="253.0" layoutX="1172.0" layoutY="548.0" startX="-34.0" startY="186.0" stroke="WHITE" strokeWidth="5.0" />
+      <Line endX="119.0" endY="-35.0" layoutX="1034.0" layoutY="820.0" startX="106.0" startY="-21.0" stroke="WHITE" strokeWidth="5.0" />
+      <Line endX="110.0" endY="-45.0" layoutX="1013.0" layoutY="831.0" startX="123.0" startY="-32.0" stroke="WHITE" strokeWidth="5.0" />
+      <Text fill="WHITE" layoutX="112.0" layoutY="98.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ESTACIONAMIENTO">
+         <font>
+            <Font name="Segoe UI Semibold" size="48.0" />
+         </font>
+      </Text>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#59dd71" height="38.0" layoutX="1234.0" layoutY="707.0" stroke="BLACK" strokeType="INSIDE" width="42.0" />
+      <Rectangle fx:id="ledSalida" arcHeight="5.0" arcWidth="5.0" fill="#f06213" height="7.0" layoutX="1044.0" layoutY="705.0" stroke="TRANSPARENT" strokeType="INSIDE" width="170.0" />
+      <Rectangle fx:id="ledEntrada" arcHeight="5.0" arcWidth="5.0" fill="#f06213" height="7.0" layoutX="1232.0" layoutY="705.0" stroke="TRANSPARENT" strokeType="INSIDE" width="200.0" />
+    </children>
+</AnchorPane>

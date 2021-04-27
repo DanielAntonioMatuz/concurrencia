@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <AnchorPane prefHeight="1000.0" prefWidth="1633.0" style="-fx-background-color: #000;">
+         <children>
+            <Text fill="WHITE" layoutX="137.0" layoutY="144.0" strokeType="OUTSIDE" strokeWidth="0.0" text="M Á Q U I N A    D E    T U R I N G">
+               <font>
+                  <Font size="47.0" />
+               </font>
+            </Text>
+            <Line endX="499.0" layoutX="339.0" layoutY="172.0" startX="-199.0" stroke="WHITE" />
+            <TextField fx:id="ingresoDatos" layoutX="279.0" layoutY="317.0" prefHeight="99.0" prefWidth="1083.0" promptText="I N G R E S E   D Í G I T O S">
+               <font>
+                  <Font size="31.0" />
+               </font>
+            </TextField>
+            <Text fill="WHITE" layoutX="275.0" layoutY="255.0" strokeType="OUTSIDE" strokeWidth="0.0" text="E N T R A D A   D E  D A T O S :">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Text>
+            <TextField fx:id="salidaDatos" editable="false" layoutX="289.0" layoutY="591.0" prefHeight="99.0" prefWidth="1083.0" promptText="R E S U L T A D O  F I N A L">
+               <font>
+                  <Font size="31.0" />
+               </font>
+            </TextField>
+            <Text fill="WHITE" layoutX="285.0" layoutY="529.0" strokeType="OUTSIDE" strokeWidth="0.0" text="S A L I D A  D E  D A T O S :">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Text>
+            <Line endX="1050.0" layoutX="518.0" layoutY="822.0" startX="-474.0" stroke="WHITE" />
+            <Text fill="WHITE" layoutX="75.0" layoutY="923.0" strokeType="OUTSIDE" strokeWidth="0.0" text="E J E C U C I O N E S   R E A L I Z A D A S :">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Text>
+            <Text fx:id="numeroEjecuciones" fill="WHITE" layoutX="605.0" layoutY="928.0" strokeType="OUTSIDE" strokeWidth="0.0" text="00">
+               <font>
+                  <Font size="52.0" />
+               </font>
+            </Text>
+            <Button fx:id="ejecutar" layoutX="1362.0" layoutY="316.0" mnemonicParsing="false" onAction="#automataMT" prefHeight="99.0" prefWidth="153.0" style="-fx-background-color: #000; -fx-border-color: #fff;" text="E J E C U T A R" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <CheckBox fx:id="mod" layoutX="646.0" layoutY="232.0" mnemonicParsing="false" onAction="#modTuring" text="M O D O    T U R I N G" textFill="WHITE" visible="false">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </CheckBox>
+            <Line endX="-100.0" endY="-146.0" layoutX="831.0" layoutY="986.0" startX="-100.0" stroke="WHITE" />
+            <Text fx:id="errorExit" fill="RED" layoutX="782.0" layoutY="926.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ERROR" visible="false">
+               <font>
+                  <Font size="37.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="1000.0" prefWidth="400.0" GridPane.columnIndex="1" />
+   </children>
+</GridPane>

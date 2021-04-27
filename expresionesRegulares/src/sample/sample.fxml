@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <AnchorPane prefHeight="700.0" prefWidth="1300.0">
+         <children>
+            <Line endX="-56.0" endY="646.0" layoutX="706.0" layoutY="54.0" startX="-56.0" startY="-54.0" strokeWidth="5.0" />
+            <Button fx:id="executeP1" layoutX="109.0" layoutY="385.0" mnemonicParsing="false" onAction="#executeP1" prefHeight="48.0" prefWidth="198.0" style="-fx-background-color: #000;" text="C O M P R O B A R" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <TextField fx:id="inputTelefono" layoutX="109.0" layoutY="220.0" prefHeight="52.0" prefWidth="462.0" promptText="+52 (961) 000-000" />
+            <Text layoutX="74.0" layoutY="136.0" strokeType="OUTSIDE" strokeWidth="0.0" text="I N G R E S E    S U   N Ú M E R O    D E    T E L É F O N O">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Text>
+            <TextField fx:id="valTel" editable="false" layoutX="109.0" layoutY="512.0" prefHeight="62.0" prefWidth="462.0" promptText="V A L I D A C I Ó N :" style="-fx-background-color: transparent; -fx-border-color: #000;" />
+            <Button fx:id="executeP2" layoutX="727.0" layoutY="246.0" mnemonicParsing="false" onAction="#executeP2" prefHeight="48.0" prefWidth="198.0" style="-fx-background-color: #000;" text="C O M P R O B A R" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <TextField fx:id="inputCurp" layoutX="727.0" layoutY="158.0" prefHeight="52.0" prefWidth="462.0" promptText="M X X X X X X X X X X" />
+            <Text layoutX="727.0" layoutY="136.0" strokeType="OUTSIDE" strokeWidth="0.0" text="I N G R E S E    S U   C U R P">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Text>
+            <TextField fx:id="valCurp" editable="false" layoutX="727.0" layoutY="373.0" prefHeight="62.0" prefWidth="462.0" promptText="V A L I D A C I Ó N :" style="-fx-background-color: transparent; -fx-border-color: #000;" />
+            <Text layoutX="109.0" layoutY="206.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Insertar número de teléfono a 10 dígitos + código de área" />
+            <Text layoutX="938.0" layoutY="262.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Detalles:" />
+            <Text layoutX="938.0" layoutY="286.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Insertar CURP 17 o 18 dígitos" />
+            <TextField fx:id="inputEmail" layoutX="109.0" layoutY="302.0" prefHeight="52.0" prefWidth="462.0" />
+            <Text layoutX="109.0" layoutY="294.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Insertar correo con dominio @ids.upchiapas.edu.mx" />
+            <TextField fx:id="valEmailExit" editable="false" layoutX="109.0" layoutY="588.0" prefHeight="62.0" prefWidth="462.0" promptText="V A L I D A C I Ó N :" style="-fx-background-color: transparent; -fx-border-color: #000;" />
+            <Text layoutX="74.0" layoutY="167.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Y   C O R R E O    E L E C T R Ó N I C O">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+   </children>
+</GridPane>
